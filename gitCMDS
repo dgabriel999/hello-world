@@ -15,3 +15,6 @@ git log - shows commits
 	git log --author="dorvil"
 
 git status - tells if there are changes
+
+git diff shows changes to file, can work for multiple files
+ 
