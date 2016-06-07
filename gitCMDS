@@ -1,0 +1,7 @@
+git instructions
+git help - shows all commands
+
+git init from within folder to create git repository
+
+ls -a shows you the files that control stuff, dont ever touch them
+
