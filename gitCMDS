@@ -5,3 +5,13 @@ git init from within folder to create git repository
 
 ls -a shows you the files that control stuff, dont ever touch them
 
+git config --global user.name "Dorvil Gabriel"
+git config --global user.email "dgabriel999@gmail.com"
+git config --list list the usernames and stuff
+
+git add . add the chnages
+git commit -m commit with str message
+git log - shows commits
+	git log --author="dorvil"
+
+git status - tells if there are changes
