@@ -16,5 +16,35 @@ git log - shows commits
 
 git status - tells if there are changes
 
-git diff shows changes to file, can work for multiple files
+git diff shows changes to file that have been added, can work for multiple files
+git diff -- staged removes file from staging area
  
+git rm deletes file 
+git mv move or rename
+
+git commit -am, commits everything and skips staging area
+	If you have a file that you dont want to commit be careful
+	moving and renaming stuff dont use it either
+	 
+git checkout -- file.ext - take file from repository and make your repository
+
+git reset HEAD fileToRemoveFromStaginAreas
+
+Getting old version
+	git checkout (commit number thingy of old version)
+	Its in the working copy and commit it
+
+
+
+Github stuff
+
+First set up remote with git remote to set up connection with local computer with public online project/server
+git remote add (nickname for repo) https://github.com/dgabriel999/hello-world.git
+
+to push onto the website -- {git push -u (name of your repo) master}
+fetch grabs it
+
+.gitignore - ignore the files or folders you dont want to keep track of, like settings files, etc
+
+checkout githubDesktop , probably wont download it becasue I am using virtual machine and my mac for seperate projects
+publish takes chagnes we make locally and puts them on the websites
